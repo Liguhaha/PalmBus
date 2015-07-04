@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_up"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_up"
+        android:layout_marginLeft="70dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_stop_num"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/filled_circle"
+            android:gravity="center"
+            android:text="00" />
+
+        <View
+            android:id="@+id/view_down"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#000000" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_bus"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignRight="@+id/ll_num"
+        android:layout_alignTop="@+id/ll_num"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/line_bus" />
+
+    <TextView
+        android:id="@+id/tv_bus_num"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignRight="@id/iv_bus"
+        android:layout_alignTop="@id/iv_bus"
+        android:background="@drawable/filled_circle_busnum"
+        android:gravity="center"
+        android:text="n"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_stop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_bus"
+        android:layout_alignTop="@id/iv_bus"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/ll_num"
+        android:gravity="center"
+        android:text="站点名称"
+        android:textSize="18sp" />
+
+</RelativeLayout>

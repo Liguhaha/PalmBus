@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">掌上公交</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="goal">目的地</string>
+    <string name="flush">刷新</string>
+    <string name="care">关注</string>
+    <string name="left_back">回退</string>
+    <string name="server_url">http://its-xy.aliapp.com/</string>
+    <string name="search">搜索</string>
+    <string name="find_interest_poi">查找兴趣点</string>
+    <string name="near">附近</string>
+    <string name="bus_stop">公交站</string>
+    <string name="hotel">酒店</string>
+    <string name="food">美食</string>
+    <string name="sport">运动健身</string>
+    <string name="shop">购物</string>
+    <string name="ktv">KTV</string>
+
+</resources>
